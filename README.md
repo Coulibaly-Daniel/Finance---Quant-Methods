@@ -5,7 +5,9 @@
 This project includes several quantitative finance models implemented in Python:
 
 - Asset pricing models (CAPM and Fama-French 3-factor model)
-- Derivatives pricing using Monte Carlo simulation (TARN)
+- Derivatives pricing
+   . using Monte Carlo simulation for implementing TARN
+   . for graphically representation of Volatility surface
 
 The objective is to analyze financial data and implement numerical methods used in quantitative finance.
 
@@ -22,6 +24,7 @@ The objective is to analyze financial data and implement numerical methods used 
 - Monte Carlo simulation of asset paths
 - Pricing of a Target Redemption Note (TARN)
 - Path-dependent payoff modeling
+- implicite volatility surface
 
 
 ##  Tools & Libraries
@@ -31,9 +34,11 @@ The objective is to analyze financial data and implement numerical methods used 
 - Pandas
 - Statsmodels
 - Matplotlib
+- mpl_toolkits
 
 
 ##  Project Structure
 
 - `asset_pricing/` → CAPM & Fama-French analysis
-- `derivatives/` → TARN Monte Carlo pricing
+- `derivatives/` → TARN Monte Carlo pricing,
+                 → Implicitevolatility surface
