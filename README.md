@@ -26,6 +26,9 @@ The objective is to analyze financial data and implement numerical methods used 
 - Path-dependent payoff modeling
 - implicite volatility surface
 
+## Installation
+
+pip install -r requirements.txt
 
 ##  Tools & Libraries
 
