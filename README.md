@@ -42,6 +42,7 @@ pip install -r requirements.txt
 
 ##  Project Structure
 
-- `asset_pricing/` → CAPM & Fama-French analysis
-- `derivatives/` → TARN Monte Carlo pricing,
-                 → Implicite volatility surface
+- `Projet_regression.ipynb` → CAPM & Fama-French analysis
+- `Pricing_TARN.ipynb` → TARN Monte Carlo pricing
+- `volatility_surface.ipynb` → Implied volatility surface
+- `requirements.txt` → Python dependencies
