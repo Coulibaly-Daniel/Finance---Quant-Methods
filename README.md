@@ -44,4 +44,4 @@ pip install -r requirements.txt
 
 - `asset_pricing/` → CAPM & Fama-French analysis
 - `derivatives/` → TARN Monte Carlo pricing,
-                 → Implicitevolatility surface
+                 → Implicite volatility surface
